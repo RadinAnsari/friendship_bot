@@ -1,0 +1,1 @@
+{"version":2,"languages":{"nodejs-npm":{"specfileHash":"7a0a907c6ff4db58ce2f1944b835803c","lockfileHash":"976d4d3089a1ffe9e211398325fad0eb","guessedImports":["@grammyjs/conversations","@roziscoding/grammy-autoquote","@grammyjs/chat-members","randomstring","convert-seconds","mongoose","iran-city","grammy"],"guessedImportsHash":"8f3b27db690553f08686cf2d7ee799ce"}}}
