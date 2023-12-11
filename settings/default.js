@@ -4,25 +4,25 @@ const config = {
 channels:[
   
       {
-       title:'کانال کاریابی'
-       ,user_name:'piekarha'
+       title:'title'
+       ,user_name:'user_name'
       }
     ,
       {
-      title:'کانال دوست یابی',
-      user_name:'piekarha'
+      title:'title',
+      user_name:'user_name'
       }
   
 ],
 
 bot:{
   
-api_key:'6638701173:AAHkuil-qgojDtOsKTK4mVgB61pWtHqqX50',
+api_key:'api_key',
   
 db:{
-name :'mydb' ,
-user_name:'gentlycrow' ,
-password :`iGmNAOxnf6w9tIhe`,  
+name :'dbname' ,
+user_name:'username' ,
+password :`password`,  
 
 }  
 

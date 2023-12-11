@@ -5,12 +5,11 @@ const {
 } = require("@grammyjs/conversations");
 const {menu_items } = require('./keyboard')
 const commands = require('./commands')
-const { addReplyParam } = require("@roziscoding/grammy-autoquote");
 const { chatMembers } = require("@grammyjs/chat-members");
 const {config} = require('./settings/default')
 const mongoose = require('mongoose')
 const bot = new Bot(config.bot.api_key);
-const mongoUri = "mongodb+srv://gentlycrow:iGmNAOxnf6w9tIhe@cluster0.jhy6mkq.mongodb.net/mydb?authSource=admin&replicaSet=atlas-wck6hj-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true";
+const mongoUri = `mongodb+srv://${config.bot.db.user_name}:${config.bot.db.password}@cluster0.jhy6mkq.mongodb.net/${config.bot.db.name}?authSource=admin&replicaSet=atlas-wck6hj-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true`;
 
 mongoose.connect(mongoUri).then(() => {
 }).catch((err) => console.log(err))
